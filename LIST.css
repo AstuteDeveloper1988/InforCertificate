@@ -1,0 +1,46 @@
+****************************************************************************************************************************************
+                                               Infor Training Certificate Generator
+****************************************************************************************************************************************
+
+User requirement 
+****************
+-Be able to generate a certificate for Astute Staff members that have completed their Infor training. 
+
+
+
+
+User fields
+***********
+- Full Name 
+- Course Department Dropdown (Then sub-list of courses based on the department)  
+- Date of Completetion  
+- Grading
+- Checkboxes
+- Follow up dates
+- Matrix of everyone in the company (By department)
+
+ops-training (revision changes) 
+lists (to be updated- when changes have been implemented) 
+Grade - (Dropdown)
+
+-CODE (What they're trained on) 
+ops 
+customer service 
+
+certificate > document sent & attached training guides > 
+
+description box input field 
+
+Location of training - dropdown 
+onsite
+location 
+teams 
+
+
+
+
+
+Next steps
+**********
+-WireFrame 
+

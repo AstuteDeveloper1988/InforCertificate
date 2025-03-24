@@ -1,0 +1,169 @@
+<!DOCTYPE HTML> 
+<html lang="en"> 
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Infor Training [Form 4] Certification Generation</title>
+		<link rel="stylesheet" href="style.css"> 
+		 <link rel="icon" type="image/x-icon" href="favicon.png">
+	</head> 
+	<body>
+	<header class="main-header">
+		<div class="astute-logo">
+			<img src="astutewhitelogo.png" alt="astute-logo" id="astute"> 
+			
+		</div> 
+	</header> 
+	<div class="version">Version 1.0</div>
+	<div class="main-container">
+	<form action="#" class="main-form">
+		<div id="branding">
+			<div class="logo-box">
+			<img id="astute-logo" src="astutelogo.png" alt="Astute logo">
+			</div> 
+		</div>
+		<h2>[FORM 4] Certification Generator</h2>
+			<label for="full-name">Full Name: </label> 
+			<input name="full-name" id="full-name" class="main-fields" type="text" placeholder="Enter Full Name" > 		
+			<label for="department-dropdown">Department:</label> 
+			<select id="department-dropdown" name="department"> 
+				<option id = "option-default" value="default" >Please Select Department</option>
+				<option id="operations" value="operations">Operations</option> 
+				<option id="cse" value="cse">CSE</option> 
+				<option id="sales" value="sales">Sales</option> 
+				<option id="qa" value="qa" >QA</option> 
+				<option id="ais" value="ais">AIS</option> 
+			</select> 
+		<label id="cse-label" for="cse-options">CSE Training Courses:</label> 
+		<select id="cse-options" name="cse"> 
+			<option>Please Select an option</option> 
+			<option>IN10-CSEDS01_Multi-Site Item Set Up</option> 
+			<option>IN10-CSEDS02_Local Site Item Set Up</option> 
+			<option>IN10-CSEDS03_Multi-Site Vendor Set Up</option> 
+			<option>IN10-CSEDS04_Local Site Vendor Set Up</option>
+			<option>IN10-CSEDS05_Multi-Site Customer Set Up</option>
+			<option>IN10-CSEDS06_Local Site Customer Set Up</option>
+			<option>IN10-CSEDS07_Alternative Manufacturer Set Up</option> 	
+			<option>IN10-CSEDS08_Customer Contracts</option> 
+			<option>IN10-CSEOR01_Basic Back to Back Order</option> 
+			<option>IN10-CSEOR01_Basic Back to Back Order</option> 
+			<option>IN10-CSEOR02_Cancelling Orders</option> 
+			<option>IN10-CSEOR03_Purchase Orders</option>
+			<option>IN10-CSEOR03_Stand Alone Purchase Orders for Project Buying</option>
+			<option>IN10-CSEOR04_PO Change Order</option>
+			<option>IN10-CSEOR05_Blanket Orders</option> 
+			<option>IN10-CSEOR06_Export Order</option>
+			<option>IN10-CSEOR07_Back to Back Order_More than 5 lines</option>			
+			<option>IN10-CSEOR08_Transfer Orders</option>
+			<option>IN10-CSEJO01_Outside Service_Same Part Numbers</option>
+			<option>IN10-CSEJO02_Outside Service_Different Part Numbers</option>
+			<option>IN10-CSEO09_Linking Orders and Jobs</option>
+			<option>IN10-CSEJO03_Job Order Split</option>
+			<option>IN10-CSEAD01 - Credit Note Request Process</option>
+			<option>IN10-CSEAD02 - Customer Returns Process (RMA)</option>
+			<option>IN10-CSEAD03 - Vendor Returns Process (VRMA) </option>
+			<option>General_Reviewing Queries_MRRs_TRAIN</option>
+			<option>Order Entry_PO Change_TRAIN</option>
+			<option>Customer Invoice and Hold Process_TRAIN</option>
+			<option>CSIGEN02_Doc Trak_Saving Documents</option> 
+		</select>
+		<label id="operations-title" for="operations-options">Operations Training Courses:</label> 
+		<select id="operations-options" name="operations"> 
+			<option>Please Select an option</option> 
+			<option>IN10-OPS01_Purchase Order Receiving</option> 
+			<option>IN10-OPS02_Quantity Move</option> 
+			<option>IN10-OPS03_Inspection on Receipt</option> 
+			<option>IN10-OPS04_Raise a Query MRR_</option> 
+			<option>IN10-OPS05_Lot Split</option> 
+			<option>IN10-OPS06_Pick and Ship</option> 
+			<option>IN10-OPS08_Jobs Process</option> 
+			<option>IN10-OPS09_Reverse Job Transactions</option> 
+			<option>IN10-OPS10_Process a Transfer Order</option> 
+			<option>IN10-OPS11_Reverse Transfer Order Ship</option> 
+			<option>IN10-OPS12_Customer Returns</option> 
+			<option>IN10-OPS13_Vendor_Shipping</option> 
+			<option>IN10-OPS14_Vendor Return Process</option>
+		</select>
+		<label id="sales-title" for="sales-options">Sales training Courses:</label> 
+		<select id="sales-options" name="sales"> 
+			<option>Please Select an option</option> 
+		</select>
+		<label id="qa-title" for="qa-options">QA Training Courses</label> 
+		<select id="qa-options" name="qa"> 
+			<option>Please Select an option</option> 
+		</select>
+		<label id="ais-title" for="ais-options">AIS Training Courses</label> 
+		<select id="ais-options" name="ais"> 
+			<option>Please Select an option</option> 
+		</select>
+		<label for="dof-completetion">Date of Completetion:</label> 
+		<input id="dof-completetion" class="main-fields" type="date" class="date" name="dof-completetion">
+		
+		<label for="review-date">Review Date:</label> 
+	    <input id="review-date" class="main-fields" type="date" class="date" name="review-date">
+		
+		<label for="next-review">Next Review Date:</label> 
+	    <input id="next-review" class="main-fields" type="date" class="date" name="next-review">
+		
+		<label for="grade" class="grade">Grade:</label> 
+		<select id="grade" class="grade" name="grade">
+			<option>Please Select Current Grade</option> 
+			<option>A</option> 
+			<option>B</option> 
+			<option>C</option> 
+			<option>D</option> 
+			<option>E</option>
+			<option>F</option>
+			<option>G</option>
+		</select> 
+		
+		<label for="training-status" class="training">Training Status: </label> 
+		<select id="training-status" class="training" name="training"> 
+			<option>Please Select Current Status</option> 
+			<option>TI</option> 
+			<option>TC</option> 
+		</select> 
+		<label id="able-to-train" for="able-to-train">Able to Train</label> 
+		<select id="att" name="able-to-train"> 
+			<option>Please Select an option</option> 
+			<option>ATT</option> 
+			<option>NATT</option> 
+		</select>
+		<label id="competency-title" for="competency">Competent</label> 
+		<select id="competency" name="competency"> 
+			<option>Please Select an option</option> 
+			<option>C</option> 
+			<option>NC</option> 
+		</select>
+		<label id="supersived-title" for="supervised">Supervised</label> 
+		<select id="supervised" name="supervised"> 
+			<option>Please Select an option</option> 
+			<option>S</option> 
+			<option>NS</option> 
+		</select>
+		<label for="location">Location of Training:</label> 
+		<select id="location" name="location">
+			<option>Please Select an option</option> 
+			<option>UK</option> 
+			<option>DE</option> 
+			<option>ITA</option> 
+			<option>FIN</option>
+			<option>HUN</option>
+			<option>ESP</option>
+			<option>SWE</option>
+			<option>USA</option> 
+			<option>AUS</option>
+			<option>ISR</option> 
+			<option>TUR</option> 
+			<option>SGP</option> 
+			<option>IND</option> 
+			<option>CHN</option>  
+			<option>Microsoft Teams</option> 
+		</select> 
+		<input id="submit" type="submit" onclick="generatePDF()" value="Generate Certificate">
+	</form> 
+	</div> 
+	<script src="javascript/form.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+	</body> 
+</html> 
